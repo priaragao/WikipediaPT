@@ -21,7 +21,7 @@ public class Artigo {
     public void iniciar(){
         url = "https://www.wikipedia.org/";
         //Onde está o Chrome Driver
-        System.setProperty("webdriver.chrome.driver","drivers/chrome/88/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","drivers/chrome/89/chromedriver.exe");
         driver = new ChromeDriver(); // Instanciar o Selenium como Chrome Driver
 
         driver.manage().window().maximize(); //Maximizar a janela do navegador

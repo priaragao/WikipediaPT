@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3023284900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Search Lili Reinhart",
+        "description": "",
+        "id": "consulta;search-lili-reinhart",
+        "after": [
+          {
+            "result": {
+              "duration": 983753900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2166032300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "access Wikipedia in Portuguese",
+            "match": {
+              "location": "Post.accessWikipediaInPortuguese()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2971310300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "search for \"Lili Reinhart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lili Reinhart",
+                  "offset": 12
+                }
+              ],
+              "location": "Post.searchFor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87037500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "shows the text \"Lili Reinhart\" on title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lili Reinhart",
+                  "offset": 16
+                }
+              ],
+              "location": "Post.showsTheTextOnTitle(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Consulta",
+    "description": "",
+    "id": "consulta",
+    "keyword": "Feature",
+    "uri": "Post.feature"
+  }
+]
