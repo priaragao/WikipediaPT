@@ -36,6 +36,5 @@ dependencies {
     task smokeTest (type: Test){
         include '**/Runner*'
         //exclude '**RunnerBackup' //pra nao rodar algum
-
     }
 
